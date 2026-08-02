@@ -97,27 +97,6 @@
   })();
 
   /* =========================================================
-     ALTURA DINÂMICA DA TOPBAR — mantém a nav interna e o
-     padding do body alinhados mesmo quando a barra do topo
-     quebra em duas linhas em ecrãs estreitos.
-     ========================================================= */
-  (function ajustarAlturaTopbar() {
-    const topbar = document.querySelector('.topbar');
-    if (!topbar) return;
-
-    function medir() {
-      document.documentElement.style.setProperty('--topbar-h', topbar.offsetHeight + 'px');
-    }
-
-    medir();
-    window.addEventListener('resize', medir);
-    window.addEventListener('load', medir);
-    if (document.fonts && document.fonts.ready) {
-      document.fonts.ready.then(medir);
-    }
-  })();
-
-  /* =========================================================
      FAQ — acordeão (abre/fecha ao clicar)
      ========================================================= */
   (function acordeaoFaq() {
