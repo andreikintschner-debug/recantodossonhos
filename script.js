@@ -5,8 +5,8 @@
      CONFIGURAÇÃO — trocar aqui pelos links reais de checkout
      de cada plano
      ========================================================= */
-  const CHECKOUT_BASICO = 'https://SEU-CHECKOUT-BASICO-AQUI';
-  const CHECKOUT_COMPLETO = 'https://SEU-CHECKOUT-COMPLETO-AQUI';
+  const CHECKOUT_BASICO = 'https://pay.hotmart.com/U106992404W?off=8to4uekc';
+  const CHECKOUT_COMPLETO = 'https://pay.hotmart.com/U106992404W?off=5yibtv81';
 
   /* Botões dos planos → cada um vai para o seu checkout, em nova aba */
   document.querySelectorAll('.cta-plano-basico').forEach(function (btn) {
